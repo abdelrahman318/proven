@@ -12,7 +12,7 @@ class _MarketPageState extends State<MarketPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Marketplace Page'),
+        child: Text('hello'),
       ),
     );
   }
