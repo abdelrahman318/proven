@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proven/constants/bottom_nav.dart';
+import 'package:proven/features/market_page.dart';
 
 void main(){
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
     int _currentIndex = 0;
     final List<Widget> _items = [
-    const Center(child: Text('Marketplace')),
+    MarketPage(),
     const Center(child: Text('Matchmaker')),
     const Center(child: Text('Orders')),
     const Center(child: Text('Profile')),
